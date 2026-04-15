@@ -1,0 +1,16 @@
+{
+  "name": "bountyboard-reddit-automation",
+  "version": "1.0.0",
+  "description": "AI-powered Reddit post generator for BountyBoard",
+  "type": "module",
+  "scripts": {
+    "gen": "node generate_reddit_drafts.mjs",
+    "setup": "node setup_reddit_schema.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.8"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
